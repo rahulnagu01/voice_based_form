@@ -1,0 +1,171 @@
+/* src/styles/AdminDashboard.css */
+.dashboard-container {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.dashboard-header {
+  padding: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.tab-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.tab-buttons button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #f0f0f0;
+  color: #333;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.tab-buttons button.active {
+  background: #4caf50;
+  color: white;
+}
+
+.dashboard-content {
+  padding: 1.5rem;
+}
+
+/* Form Styles */
+.add-officer-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #eeeeee;
+}
+
+th {
+  background: #f5f5f5;
+  font-weight: 600;
+}
+
+/* Messages */
+.error-message,
+.success-message {
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.error-message {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.success-message {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .tab-buttons {
+    flex-direction: column;
+  }
+
+  .tab-buttons button {
+    width: 100%;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+}
+
+/* src/styles/AdminDashboard.css */
+.admin-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+
+.admin-header {
+  background: linear-gradient(to right, #4caf50, #2e7d32);
+  padding: 1rem 0;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.logout-btn {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.logout-btn:hover {
+  background: white;
+  color: #4caf50;
+}
+
+.admin-main {
+  flex: 1;
+  padding: 2rem 0;
+}
+
+.admin-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.admin-footer {
+  background: #333;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+/* Rest of your existing AdminDashboard styles */

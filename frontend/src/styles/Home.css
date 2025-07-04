@@ -1,0 +1,68 @@
+/* Home Page Container */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1; /* Ensures it fills available vertical space */
+    padding: 20px; /* Adds some spacing around the content */
+    background-color: white; /* Keeps the background clean and consistent */
+    text-align: center;
+  }
+  
+  /* Welcome Text */
+  .home-container h1 {
+    color: #008000; /* Green color for the welcome text */
+    font-size: 36px; /* Large font size */
+    margin-bottom: 20px;
+    font-weight: bold; /* Bold for emphasis */
+  }
+  
+  /* Subtext */
+  .home-container p {
+    font-size: 20px; /* Medium-sized font for the instructions */
+    color: #333; /* Neutral color for readability */
+    margin-bottom: 40px;
+  }
+  
+  /* Login Buttons Container */
+  .login-buttons {
+    display: flex;
+    gap: 50px; /* Space between buttons */
+  }
+  
+  /* Shared Button Styles */
+  .login-button {
+    padding: 15px 40px; /* Creates larger buttons */
+    text-decoration: none; /* Removes underlines */
+    font-size: 18px; /* Font size for buttons */
+    color: white; /* Text color */
+    border: none;
+    border-radius: 25px; /* Fully rounded buttons */
+    font-weight: bold; /* Bold for emphasis */
+    cursor: pointer;
+    background: linear-gradient(to bottom, #4caf50, #087f23); /* Green gradient */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Adds depth */
+    transition: all 0.3s ease; /* Smooth transitions */
+  }
+  
+  /* Officer Button */
+  .login-button.officer {
+    background: linear-gradient(to bottom, #4caf50, #087f23); /* Green gradient */
+  }
+  
+  .login-button.officer:hover {
+    background: linear-gradient(to bottom, #087f23, #4caf50); /* Reverse gradient on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Increased shadow on hover */
+  }
+  
+  /* Admin Button */
+  .login-button.admin {
+    background: linear-gradient(to bottom, #2196F3, #0b64c2); /* Blue gradient */
+  }
+  
+  .login-button.admin:hover {
+    background: linear-gradient(to bottom, #0b64c2, #2196F3); /* Reverse gradient on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Increased shadow on hover */
+  }
+  

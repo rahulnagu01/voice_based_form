@@ -1,0 +1,376 @@
+/* styles/PublicSearch.css
+.public-search-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.public-search-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.search-section {
+  margin-bottom: 2rem;
+}
+
+.input-group {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.input-group button {
+  padding: 0.75rem 2rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.input-group button:hover {
+  background-color: #45a049;
+}
+
+.input-group button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: #dc3545;
+  padding: 1rem;
+  background-color: #f8d7da;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.loading {
+  text-align: center;
+  color: #666;
+  padding: 1rem;
+}
+
+.census-details {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.detail-section {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.detail-section h4 {
+  color: #4CAF50;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.detail-section p {
+  margin: 0.5rem 0;
+}
+
+.detail-section strong {
+  color: #333;
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .public-search-container {
+      margin: 1rem;
+      padding: 1rem;
+  }
+
+  .input-group {
+      flex-direction: column;
+  }
+
+  .input-group button {
+      width: 100%;
+  }
+} */
+
+
+
+
+
+
+/* 
+
+src/styles/PersonDetails.css
+.person-details-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  .person-details-container h2 {
+    color: #2e7d32;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .search-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+  
+  .search-section input {
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .search-section input:focus {
+    outline: none;
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.2);
+  }
+  
+  .search-section button {
+    padding: 12px 24px;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  .search-section button:hover {
+    background: #2e7d32;
+  }
+  
+  .search-section button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    background: #ffebee;
+    color: #c62828;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .census-details {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .census-details h3 {
+    color: #2e7d32;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e0e0e0;
+  }
+  
+  .details-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .detail-section {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 4px;
+  }
+  
+  .detail-section h4 {
+    color: #2e7d32;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .detail-section p {
+    margin: 10px 0;
+    color: #666;
+  }
+  
+  .detail-section strong {
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .person-details-container {
+      margin: 20px auto;
+    }
+  
+    .search-section {
+      flex-direction: column;
+    }
+  
+    .search-section input,
+    .search-section button {
+      max-width: 100%;
+    }
+  
+    .census-details {
+      padding: 20px;
+    }
+  
+    .details-grid {
+      grid-template-columns: 1fr;
+    }
+  } */
+
+
+  /* Container Styles */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Headings */
+h2 {
+  color: #2c3e50;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+h3 {
+  color: #1d8348;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #27ae60;
+  padding-bottom: 5px;
+}
+
+h4 {
+  margin-top: 20px;
+  color: #2c3e50;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 4px;
+}
+
+/* Form Fields */
+.form-group {
+  margin-bottom: 18px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #34495e;
+}
+
+input[type='text'],
+input[type='email'] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border 0.3s ease;
+}
+
+input:focus {
+  border-color: #27ae60;
+  outline: none;
+}
+
+/* Button */
+button {
+  background-color: #27ae60;
+  color: white;
+  padding: 10px 18px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1e8449;
+}
+
+/* Error and Success Messages */
+p {
+  margin-top: 10px;
+}
+
+p[style*='red'] {
+  color: #e74c3c;
+}
+
+p[style*='green'] {
+  color: #2ecc71;
+}
+
+/* Census Data Section */
+.census-details {
+  margin-top: 30px;
+}
+
+.section {
+  margin-bottom: 25px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 30px;
+  padding: 10px 0;
+}
+
+.grid-row {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 0.95rem;
+}
+
+.grid-row strong {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
