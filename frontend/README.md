@@ -20,7 +20,7 @@ A modern web application for digitized census data collection with **voice assis
 | Frontend       | Backend        | Database    | Voice Input        |
 |----------------|----------------|-------------|--------------------|
 | React.js       | Express.js     | MongoDB     | Web Speech API     |
-| JavaScript     | Node.js        | Mongoose    |                    |
+| JavaScript     | Node.js        |             |                    |
 
 ---
 
